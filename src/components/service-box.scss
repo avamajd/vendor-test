@@ -1,0 +1,20 @@
+.services-box{
+  
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+ 
+   .service-item{
+     padding: 20px;
+     cursor: pointer;
+   }
+ 
+   .selected-item{
+     color: white;
+     font-weight: 500;
+     font-size: 14px;
+     background-color: #404040;
+     border-radius: 6px;
+   }
+  
+ }

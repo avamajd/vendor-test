@@ -1,0 +1,92 @@
+.vendor-wrapper{
+
+  display: flex;
+  flex-direction: column;
+
+  .vendor-list{
+    display: flex;
+    flex-direction: column;
+    border:  1px solid #ccc;
+    border-radius: 6px;
+
+    .vendor-item{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      border:  1px solid #ccc;
+      border-radius: 6px;
+      justify-content: space-between;
+
+        .title-part{
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          margin: 10px;
+
+          .logo{
+            display: flex;
+            margin-right: 10px;
+            margin-left: 10px;
+            border: 1px solid #e6e6e6;;
+            border-radius: 8px;
+    
+            >img{
+              width: 80px;
+              height: 80px;
+            }
+          }
+
+          .title-text{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
+    }
+
+    .rate-part{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      margin: 10px;
+
+      span:nth-child(1){
+        margin: 0 0 6px 5px;       
+      }
+      span:nth-child(2){
+        background-color: #3f7e00;
+        border-radius: 4px;
+        padding: 5px;   
+        color: #fff     
+      }
+    }
+  }
+
+  .filter-button{
+    background-color: #ec008c;
+    border: none;
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+    color: #fff
+  }
+
+ 
+}
+
+.filters-main{
+  display: flex;
+  flex-direction: column;
+
+  .show-button{
+    background-color: #ec008c;
+    border: none;
+    border-radius: 6px;
+    // width: 60px;
+    height: 40px;
+    margin: 10px;
+    color: #fff
+  }
+}
+
